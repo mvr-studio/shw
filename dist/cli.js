@@ -10,10 +10,10 @@ const meow_1 = __importDefault(require("meow"));
 const ui_1 = __importDefault(require("./ui"));
 const cli = (0, meow_1.default)(`
 	Usage
-	  $ showdown [file]
+	  $ shw [file]
 
 	Examples
-	  $ showdown file.md
+	  $ shw file.md
 `);
 const enterAltScreenCommand = '\x1b[?1049h';
 const leaveAltScreenCommand = '\x1b[?1049l';

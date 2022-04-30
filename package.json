@@ -1,6 +1,6 @@
 {
   "name": "shw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "bin": "dist/cli.js",
   "engines": {
@@ -13,7 +13,7 @@
     "test": "xo && ava"
   },
   "files": [
-    "dist/cli.js"
+    "dist/**"
   ],
   "dependencies": {
     "ink": "^3.2.0",
