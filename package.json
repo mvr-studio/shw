@@ -1,0 +1,55 @@
+{
+	"name": "shw",
+	"version": "0.0.0",
+	"license": "MIT",
+	"bin": "dist/cli.js",
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"build": "tsc && chmod +x dist/cli.js",
+		"start": "npm run build && dist/cli.js",
+		"pretest": "npm run build",
+		"test": "xo && ava"
+	},
+	"files": [
+		"dist/cli.js"
+	],
+	"dependencies": {
+		"ink": "^3.2.0",
+		"ink-markdown": "^1.0.1",
+		"ink-tab": "^4.2.0",
+		"meow": "^9.0.0",
+		"react": "^18.1.0"
+	},
+	"devDependencies": {
+		"@ava/typescript": "^3.0.1",
+		"@sindresorhus/tsconfig": "^2.0.0",
+		"@types/react": "^18.0.8",
+		"ava": "^4.2.0",
+		"chalk": "^4.1.2",
+		"eslint-config-xo-react": "^0.27.0",
+		"eslint-plugin-react": "^7.29.4",
+		"eslint-plugin-react-hooks": "^4.5.0",
+		"ink-testing-library": "^2.1.0",
+		"prettier": "^2.6.2",
+		"typescript": "^4.6.4",
+		"xo": "^0.39.1"
+	},
+	"ava": {
+		"typescript": {
+			"extensions": [
+				"tsx"
+			],
+			"rewritePaths": {
+				"source/": "dist/"
+			}
+		}
+	},
+	"xo": {
+		"extends": "xo-react",
+		"rules": {
+			"react/prop-types": "off"
+		}
+	}
+}
