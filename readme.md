@@ -1,6 +1,6 @@
 # shw (Showdown) - Quick CLI presentations
 
-Present quick Markdown presentations by running a simple CLI command.
+Lo-fi CLI presentation tool. Make Markdown based presentations by running a simple CLI command.
 
 ## Install
 
@@ -21,3 +21,15 @@ $ yarn global add shw
 ```
 $ shw presentation.md
 ```
+
+![shw](/demo.gif)
+
+## Features
+
+- Metadata reading (title, author, email)
+- [Synthax highlighting](https://github.com/thlorenz/cardinal)
+- Zero config
+
+## Links
+
+- [Example](/examples/demo.md)
