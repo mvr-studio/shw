@@ -1,5 +1,5 @@
 interface AppProps {
-    file?: string;
+    filePath: string;
 }
-declare const App: ({ file }: AppProps) => JSX.Element;
+declare const App: ({ filePath }: AppProps) => JSX.Element;
 export default App;

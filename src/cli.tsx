@@ -21,4 +21,4 @@ process.on('exit', () => {
   process.stdout.write(leaveAltScreenCommand)
 })
 
-render(<App file={cli.input[0]} />)
+render(<App filePath={cli.input[0] || ''} />)

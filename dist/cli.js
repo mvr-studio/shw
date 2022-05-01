@@ -21,4 +21,4 @@ process.stdout.write(enterAltScreenCommand);
 process.on('exit', () => {
     process.stdout.write(leaveAltScreenCommand);
 });
-(0, ink_1.render)(react_1.default.createElement(ui_1.default, { file: cli.input[0] }));
+(0, ink_1.render)(react_1.default.createElement(ui_1.default, { filePath: cli.input[0] || '' }));

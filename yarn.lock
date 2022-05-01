@@ -3709,6 +3709,13 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
+parse-md@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/parse-md/-/parse-md-2.0.5.tgz#bee300d3c41c285650db2430080a8b52baf87f35"
+  integrity sha512-7ZhRqwFRTAXyr/PcXSafJpx3g7ZUs5vPvoYww4H4YJuDFDK5LLvHGhP13Kp5d0tAHHxIBITERToBS90YWN0/VQ==
+  dependencies:
+    js-yaml "^3.13.1"
+
 parse-ms@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/parse-ms/-/parse-ms-2.1.0.tgz#348565a753d4391fa524029956b172cb7753097d"
