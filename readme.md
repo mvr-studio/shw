@@ -2,7 +2,7 @@
 
 Lo-fi CLI presentation tool. Make Markdown based presentations by running a simple CLI command.
 
-## Install
+## Installation
 
 ### Usign NPM:
 
@@ -18,8 +18,16 @@ $ yarn global add shw
 
 ## Usage
 
+### Module installed locally
+
 ```
 $ shw presentation.md
+```
+
+### Without installing
+
+```
+$ npx shw presentation.md
 ```
 
 ![shw](/demo.gif)
