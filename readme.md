@@ -2,6 +2,10 @@
 
 Lo-fi CLI presentation tool. Make Markdown based presentations by running a simple CLI command.
 
+## Prerequisite
+
+- Node.js (>=10)
+
 ## Installation
 
 ### Usign NPM:
